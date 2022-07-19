@@ -1,0 +1,528 @@
+
+@import url(//db.onlinewebfonts.com/c/1a991b240e707c46ca904d731893f108?family=Neue+Montreal);
+
+
+
+
+:root{
+    --theme-color: rgb(57, 172, 57);
+    --sec-color:rgb(27, 61, 27);
+    --font-family-base: "Neue Montreal";    
+    --font-family-rebrand: 'Rza','Rza-fallback';
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: white;
+width: 100%;
+position: fixed;
+top: 0;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 88px;
+    padding: 0 25px;
+}
+nav ul{
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+nav ul li {
+   
+    list-style: none;
+    padding: 0 23px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif ;
+}
+nav ul li a:hover{
+    color: var(--theme-color);
+    
+
+}
+ .searchbar{
+    display: flex;
+    align-items: center;
+
+ }
+.searchbar input{
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    margin: 0 10px 0 200px;
+}
+.signup-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    
+
+}
+.signup-btn a{
+    color: white;
+    text-align:center;
+    text-decoration: none;
+    background: var(--theme-color);
+    height: 30px;
+    width: 70px;
+    padding-top: 8px;
+    border-radius: 20px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif ;
+}
+.line{
+    margin-bottom: 100px;
+    border-top: 2px solid black;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .drop{
+    display: none;
+  }
+  nav ul li:hover .drop{
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: absolute;
+    background: white;
+    margin: 16px;
+    flex-direction: column;
+    left:0px;
+    margin-top: 11px;
+
+  }
+  nav ul li:click .drop{
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: absolute;
+    background: white;
+    margin: 16px;
+    flex-direction: column;
+    left:0px;
+    margin-top: 11px;
+  }
+  .afterline{
+    display: flex;
+    margin-top: 35px;
+  }
+  .left-drop{
+    width: 50%;
+  }
+  .right-drop{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .right-drop h6{
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif ;
+  }
+  .drli{
+    height:50px;
+    width: 280px;
+    border: solid;
+    margin-bottom: 3px;
+    border-color: black;
+    padding: 15px;
+  }
+  .menu{
+    display: none;
+  }
+  .res a{
+    color: var(--theme-color);
+    font-size: 15px;
+    
+  }
+  .res a img{
+    height: 12px;
+    width: 25px;
+  }
+  .wu-dd{
+    display:flex;
+    margin-right: 8px;
+    margin-bottom: 20px;
+  }
+  .wu-dd a{
+    
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif ;
+
+  }
+  .wu-dd p{
+    font-size: 15px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif ;
+  }
+  .n2sub{
+    display: none;
+  }
+  nav ul li:hover .n2sub{
+    width: 150px;
+    height: 160px;
+    display: block;
+    position: absolute;
+    background: white;
+    margin-bottom: 50px;
+    border: 1px solid black;
+  }
+  nav ul li:hover .n2sub ul{
+    display: block;
+    margin: 0px;
+  }
+  nav ul li:hover .n2sub ul li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .main{
+    margin-top: 100px;
+  }
+.hero1{
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.left-col{
+    width: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-direction: column;
+    margin-left: 130px;
+    margin-top: 70px;
+    margin-right: 200px;
+    
+}
+.left-col h1{
+    color: var(--theme-color);
+    margin: 15px 0px;
+    font-size: 80px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif ;
+} 
+.left-col p {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 15px 0px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif ;
+}
+
+.f-btn{
+    margin: 15px 0px;;
+}
+.ft{
+    background: var(--theme-color);
+    color: white;
+    text-decoration: none;
+    padding: .4em 1.3em;
+    border-radius: 5em;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif ;
+}
+
+.fw{
+   
+    color: var(--theme-color);
+    text-decoration: none;
+    padding: .4em 1.3em;
+    border: solid;
+    border-radius: 5em;
+    border-color: var(--theme-color);
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif ;
+}
+.ft:hover{
+    background: rgb(5, 87, 5);
+}
+.fw:hover{
+    color: rgb(5, 87, 5);
+    border-color: rgb(5, 87, 5);
+}
+.trust{
+    margin: 25px 0px;
+}
+.right-col{
+    margin-top: 90px;
+    
+}
+.right-col img{
+    width: 400px;
+}
+.hero2{
+    height:auto;
+    margin-left: 190px;
+    margin-bottom: 30px;
+}
+.hero2 p {
+    font-size: 30px;
+}
+.bj{
+    color: var(--theme-color);
+    text-decoration: none;
+}
+.bj:hover{
+    text-decoration: underline;
+}
+.jobgrid{
+    display: flex;
+
+}
+
+.first-box-footer{
+    height: 100px;
+    width:400px;
+    padding: 26px 35px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+background-color: rgb(250, 244, 237);
+}
+.first-box-footer:hover{
+    background-color: rgb(226, 216, 216);
+}
+.first-box-footer a{
+    display: block;
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif ;
+}
+.first-box-footer p{
+    font-size: 18px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif ;
+    font-weight: lighter;
+}
+
+footer{
+    background: rgb(27, 61, 27);
+    color: white;
+}
+.container{
+    height: 400px;
+    background: rgb(27, 61, 27);
+     padding-left: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container ul{
+    margin: 25px 100px 50px 100px;
+}
+.container ul p{
+    color: white;
+    font-weight: bold;
+    margin: 25px 0px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif ;
+}
+.container ul li{
+    list-style: none;
+    margin-bottom: 4px;
+}
+.container ul li a{
+    color: white;
+    text-decoration: none;
+    padding-bottom: 100px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif ;
+    font-size: 12px;
+}
+.container ul li a:hover{
+    text-decoration: underline;
+
+}
+.cright{
+    background: var(--sec-color);
+    
+}
+.restf1{
+    background: rgb(27, 61, 27);
+    display: flex;
+    margin-top: 90px;
+}
+.restf1 p{
+    color: white;
+    background: var(--sec-color);
+    display: flex;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif ;
+    
+}
+.rf1{
+    width: 300px;
+}
+.rf2{
+    margin-left: 750px;
+}
+.restf2{
+    background: rgb(27, 61, 27);
+}
+.restf2 p{
+    color: white;
+    background: var(--sec-color);
+    display: inline;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif ;
+
+}
+.restf2{
+    background: rgb(27, 61, 27);
+}
+.line2{
+    
+    border-top: 2px solid white;
+    margin: 0 auto;
+    margin-top: 9px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+.restf3{
+    display: flex;
+    padding-bottom: 20px;
+}
+.restf3 p{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif ;
+}
+.restf3 ul{
+    display: flex;
+
+}
+.restf3 ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+.restf3 ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif ;
+}
+.restf3 ul li a:hover{
+    color: var(--theme-color);
+}
+
+@media only screen and (max-width:700px) {
+
+    nav ul{
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+    nav ul li{
+        display:block;
+    }
+    .menu{
+        display: flex;
+    }
+    #menulist{
+        overflow: hidden;
+        transition: 0.5s;
+        height: 100vh;
+        background: white;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .line{
+        margin-bottom: 40px;
+        border-top: 2px solid black;
+        margin-top: 3px;
+        width: 100%;
+      }
+    .nav2{
+        display:none;
+    }
+    .hero1{
+        
+        flex-direction: column;
+        margin: 20px 0px;
+    }
+    .left-col{
+        justify-content: center;
+        margin:50px 0px ;
+    }
+    .left-col h1{
+        font-size:45px;
+        text-align:justify;
+    }
+    .left-col p {
+        font-size: 13px;
+        text-align: justify;
+        }
+
+        .f-btn{
+            margin: 15px 0px;;
+        }
+    .right-col{
+        display: none;
+    }
+
+    .hero2{
+        height:auto;
+        margin: 50px 0px;
+    }
+    .hero2 p {
+        font-size: 20px;
+        margin:0px;
+    }
+    .bj{
+        color: var(--theme-color);
+        text-decoration: none;
+        margin:0px;
+    }
+    .bj:hover{
+        text-decoration: underline;
+    }
+    .jobgrid{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .container ul li{
+        display: none;
+    
+
+}
+.container ul p{
+    margin: 5px 5px;
+}
+.restf3{
+    display: flex;
+    flex-direction: column;
+}
+.restf3 p{
+    margin: 5px 0px;
+}
+.restf3 ul{
+    display: flex;
+    flex-direction: column;
+}
+.restf3 ul li{
+    margin: 5px 5px;
+}
+}
